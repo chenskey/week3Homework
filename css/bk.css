@@ -1,0 +1,397 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1296px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: 'Roboto', 'Noto Sans TC';
+    background: #ffffff;
+}
+
+.nav {}
+
+.header {
+    background-image: url("images/home-header-sm.png");
+    contain: cover;
+}
+
+.content {}
+
+.fashion {}
+
+
+.comment {
+    .container h2 ul li img {
+        width: 100%;
+    }
+}
+
+.contact {
+    .container form a {
+        padding: 25px 220px;
+    }
+}
+
+.footer {}
+
+.w-50 {
+    width: 50%;
+}
+
+.bg-darkRed {
+    background: #AA0601;
+}
+
+.bg-lightRed {
+    background: #FBF2F2;
+}
+
+.text-darkRed {
+    color: 670300;
+}
+
+.text-lightRed {
+    color: #FBF2F2;
+}
+
+.text-light {
+    color: white;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.fz10 {
+    font-size: 10px;
+}
+
+.fz16 {
+    font-size: 16px;
+}
+
+
+.fz25 {
+    font-size: 25px;
+}
+
+.fz20 {
+    font-size: 20px;
+}
+
+.fz18 {
+    font-size: 18px;
+}
+
+.fz35 {
+    font-size: 35px;
+}
+
+.fz40 {
+    font-size: 40px;
+}
+
+.fz45 {
+    font-size: 45px;
+}
+
+.fz55 {
+    font-size: 55px;
+}
+
+.fz75 {
+    font-size: 75px;
+}
+
+.mt18 {
+    margin-top: 18px;
+}
+
+.mt25 {
+    margin-top: 25px;
+}
+
+.mt40 {
+    margin-top: 40px;
+}
+
+.mt45 {
+    margin-top: 45px;
+}
+
+.mt80 {
+    margin-top: 80px;
+}
+
+.mt115 {
+    margin-top: 115px;
+}
+
+.mt130 {
+    margin-top: 130px;
+}
+
+.mt250 {
+    margin-top: 250px;
+}
+
+.mt390 {
+    margin-top: 390px;
+}
+
+.mt-auto {
+    margin-top: auto;
+}
+
+.mb10 {
+    margin-bottom: 10px;
+}
+
+.mb18 {
+    margin-bottom: 18px;
+}
+
+.mb20 {
+    margin-bottom: 20px;
+}
+
+.mb25 {
+    margin-bottom: 25px;
+}
+
+.mb30 {
+    margin-bottom: 30px;
+}
+
+.mb40 {
+    margin-bottom: 40px;
+}
+
+.mb45 {
+    margin-bottom: 45px;
+}
+
+.mb55 {
+    margin-bottom: 55px;
+}
+
+.mb75 {
+    margin-bottom: 75px;
+}
+
+.mb80 {
+    margin-bottom: 80px;
+}
+
+
+.mb100 {
+    margin-bottom: 100px;
+}
+
+.mb130 {
+    margin-bottom: 130px;
+}
+
+.mb135 {
+    margin-bottom: 135px;
+}
+
+.mb370 {
+    margin-bottom: 370px;
+}
+
+.ml10 {
+    margin-left: 10px;
+}
+
+.ml20 {
+    margin-left: 20px;
+}
+
+.mr10 {
+    margin-right: 10px;
+}
+
+.mr40 {
+    margin-right: 40px;
+}
+
+.mr48 {
+    margin-right: 48px;
+}
+
+.gap30 {
+    gap: 30px;
+}
+
+.gap40 {
+    gap: 40px;
+}
+
+
+.gap45 {
+    gap: 45px;
+}
+
+.gap85 {
+    gap: 85px;
+}
+
+.df {
+    display: flex;
+}
+
+.df-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.d-block {
+    display: block;
+}
+
+.text-decoration-none {
+    text-decoration: none;
+}
