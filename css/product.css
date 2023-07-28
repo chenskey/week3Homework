@@ -170,20 +170,26 @@ img {
   border-bottom: 3px solid #ffffff;
 }
 
-.group .container .groupList {
-  margin: 0;
-}
 .group .container .groupList .active {
   border-bottom: 12px solid #AA0601 !important;
 }
 .group .container .groupList .groupItem {
-  padding: 24px 150px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  /* padding: 24px 150px; */
 }
 .group .container .groupList .groupItem:hover {
+  color: #ffffff !important;
   background: #AA0601;
 }
-.group .container .groupList .groupItem:hover a {
-  color: #ffffff !important;
+
+.header .d-flex img {
+  height: 296px;
+}
+
+.card .card-body .colorItem a {
+  border: 10px solid black;
+  border-radius: 4px;
 }
 
 .pagination .page-item .page-link {
@@ -339,6 +345,10 @@ img {
   gap: 4px;
 }
 
+.gap8 {
+  gap: 8px;
+}
+
 .gap16 {
   gap: 16px;
 }
@@ -363,6 +373,18 @@ img {
   }
 }
 @media (max-width: 767px) {
+  .group .container .groupList .groupItem {
+    font-size: 16px;
+  }
+  .header .d-flex img {
+    height: 136px;
+  }
+  .product .container h1 {
+    font-size: 24px;
+  }
+  .product .container h3 {
+    font-size: 24px;
+  }
   .footer .footer-nav .social .social-link a img {
     width: 40px;
     height: 40px;

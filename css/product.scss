@@ -180,26 +180,38 @@ img {
 .group {
     .container {
         .groupList {
-            margin: 0;
-
             .active {
                 border-bottom: 12px solid #AA0601 !important;
             }
 
             .groupItem {
-                padding: 24px 150px;
+                padding-top: 24px;
+                padding-bottom: 24px;
+                /* padding: 24px 150px; */
 
                 &:hover {
-                    a {
-                        color: #ffffff !important;
-                    }
-
+                    color: #ffffff !important;
                     background: #AA0601;
                 }
 
 
             }
         }
+    }
+}
+
+.header {
+    .d-flex {
+        img {
+            height: 296px;
+        }
+    }
+}
+
+.card {
+    .card-body .colorItem a {
+        border: 10px solid black;
+        border-radius: 4px;
     }
 }
 
@@ -372,6 +384,10 @@ img {
     gap: 4px;
 }
 
+.gap8 {
+    gap: 8px;
+}
+
 .gap16 {
     gap: 16px;
 }
@@ -402,6 +418,36 @@ img {
 }
 
 @media(max-width:767px) {
+
+    .group {
+        .container {
+            .groupList {
+
+                .groupItem {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+
+    .header {
+        .d-flex {
+            img {
+                height: 136px;
+            }
+        }
+    }
+
+    .product .container {
+        h1 {
+            font-size: 24px;
+        }
+
+        h3 {
+            font-size: 24px;
+        }
+    }
+
     .footer {
         .footer-nav {
             .social .social-link a img {
