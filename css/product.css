@@ -170,6 +170,11 @@ img {
   border-bottom: 3px solid #ffffff;
 }
 
+.group .container .groupList {
+  width: 100% !important;
+  display: flex !important;
+  flex-direction: row !important;
+}
 .group .container .groupList .active {
   border-bottom: 12px solid #AA0601 !important;
 }
@@ -185,6 +190,14 @@ img {
 
 .header .d-flex img {
   height: 296px;
+}
+
+.product {
+  display: none;
+}
+
+.product.active {
+  display: block;
 }
 
 .card .card-body .colorItem a {

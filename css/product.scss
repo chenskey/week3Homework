@@ -179,7 +179,13 @@ img {
 
 .group {
     .container {
+
         .groupList {
+            width: 100% !important;
+            display: flex !important;
+            flex-direction: row !important;
+
+
             .active {
                 border-bottom: 12px solid #AA0601 !important;
             }
@@ -196,6 +202,7 @@ img {
 
 
             }
+
         }
     }
 }
@@ -206,6 +213,14 @@ img {
             height: 296px;
         }
     }
+}
+
+.product {
+    display: none;
+}
+
+.product.active {
+    display: block;
 }
 
 .card {
