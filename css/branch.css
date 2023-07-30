@@ -192,12 +192,9 @@ img {
   height: 296px;
 }
 
-.product {
-  display: none;
-}
-
-.product.active {
-  display: block;
+.title {
+  padding-left: 16px;
+  border-left: 12px solid #AA0601;
 }
 
 .card .card-body .colorItem a {
@@ -290,6 +287,24 @@ img {
   line-height: 1.5;
 }
 
+.ptb8 {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.pt16 {
+  padding-top: 16px;
+}
+
+.pb16 {
+  padding-bottom: 16px;
+}
+
+.ptb16 {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
 .ptb25 {
   padding: 25px 0;
 }
@@ -302,12 +317,25 @@ img {
   padding-bottom: 32px;
 }
 
+.plr24 {
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
 .mb36 {
   margin-bottom: 36px;
 }
 
+.mb41 {
+  margin-bottom: 41px;
+}
+
 .pt60 {
   padding-top: 60px;
+}
+
+.pt96 {
+  padding-top: 96px;
 }
 
 .mb80 {
@@ -334,6 +362,10 @@ img {
   font-size: 18px;
 }
 
+.fz19 {
+  font-size: 19px;
+}
+
 .fz20 {
   font-size: 20px;
 }
@@ -352,6 +384,10 @@ img {
 
 .fz42 {
   font-size: 42px;
+}
+
+.fz48 {
+  font-size: 48px;
 }
 
 .gap4 {
@@ -393,10 +429,10 @@ img {
   .header .d-flex img {
     height: 136px;
   }
-  .product .container h1 {
+  .branch .container h1 {
     font-size: 24px;
   }
-  .product .container h3 {
+  .branch .container h3 {
     font-size: 24px;
   }
   .footer .footer-nav .social .social-link a img {
@@ -458,4 +494,4 @@ img {
     flex-direction: column;
     gap: 8px;
   }
-}/*# sourceMappingURL=product.css.map */
+}/*# sourceMappingURL=branch.css.map */

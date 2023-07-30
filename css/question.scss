@@ -157,6 +157,7 @@ img {
     vertical-align: middle;
 }
 
+
 .navBar {
     .container {
         display: flex;
@@ -177,65 +178,9 @@ img {
     }
 }
 
-.group {
-    .container {
-
-        .groupList {
-            width: 100% !important;
-            display: flex !important;
-            flex-direction: row !important;
-
-
-            .active {
-                border-bottom: 12px solid #AA0601 !important;
-            }
-
-            .groupItem {
-                padding-top: 24px;
-                padding-bottom: 24px;
-                /* padding: 24px 150px; */
-
-                &:hover {
-                    color: #ffffff !important;
-                    background: #AA0601;
-                }
-            }
-        }
-    }
-}
-
-.header {
-    .d-flex {
-        img {
-            height: 296px;
-        }
-    }
-}
-
-.product {
-    display: none;
-}
-
-.product.active {
-    display: block;
-}
-
-.card {
-    .card-body .colorItem a {
-        border: 10px solid black;
-        border-radius: 4px;
-    }
-}
-
-.pagination {
-    .page-item .page-link {
-        color: #000;
-    }
-
-    .active a {
-        color: #ffffff !important;
-        background: #000 !important;
-    }
+.title {
+    padding-left: 16px;
+    border-left: 12px solid #AA0601;
 }
 
 .footer {
@@ -336,6 +281,10 @@ img {
     padding-top: 32px;
 }
 
+.pt96 {
+    padding-top: 96px;
+}
+
 .pb32 {
     padding-bottom: 32px;
 }
@@ -392,6 +341,10 @@ img {
     font-size: 42px;
 }
 
+.fz48 {
+    font-size: 48px;
+}
+
 .gap4 {
     gap: 4px;
 }
@@ -416,10 +369,10 @@ img {
     display: flex;
 }
 
-
 @media(max-width:992px) {
 
     .navBar,
+    .content,
     .footer {
         .container {
             padding-top: 24px;
@@ -431,36 +384,6 @@ img {
 }
 
 @media(max-width:767px) {
-
-    .group {
-        .container {
-            .groupList {
-
-                .groupItem {
-                    font-size: 16px;
-                }
-            }
-        }
-    }
-
-    .header {
-        .d-flex {
-            img {
-                height: 136px;
-            }
-        }
-    }
-
-    .product .container {
-        h1 {
-            font-size: 24px;
-        }
-
-        h3 {
-            font-size: 24px;
-        }
-    }
-
     .footer {
         .footer-nav {
             .social .social-link a img {
@@ -470,6 +393,7 @@ img {
         }
     }
 }
+
 
 @media(max-width: 700px) {
     .navBar {
@@ -492,7 +416,22 @@ img {
     }
 }
 
+
 @media(max-width:576px) {
+
+    .content {
+        .container {
+            padding-left: 13px;
+            padding-right: 13px;
+
+            .text {
+                margin-bottom: 64px;
+            }
+        }
+    }
+
+
+
     .footer {
         .container {
             padding-left: 14px;

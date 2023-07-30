@@ -170,47 +170,9 @@ img {
   border-bottom: 3px solid #ffffff;
 }
 
-.group .container .groupList {
-  width: 100% !important;
-  display: flex !important;
-  flex-direction: row !important;
-}
-.group .container .groupList .active {
-  border-bottom: 12px solid #AA0601 !important;
-}
-.group .container .groupList .groupItem {
-  padding-top: 24px;
-  padding-bottom: 24px;
-  /* padding: 24px 150px; */
-}
-.group .container .groupList .groupItem:hover {
-  color: #ffffff !important;
-  background: #AA0601;
-}
-
-.header .d-flex img {
-  height: 296px;
-}
-
-.product {
-  display: none;
-}
-
-.product.active {
-  display: block;
-}
-
-.card .card-body .colorItem a {
-  border: 10px solid black;
-  border-radius: 4px;
-}
-
-.pagination .page-item .page-link {
-  color: #000;
-}
-.pagination .active a {
-  color: #ffffff !important;
-  background: #000 !important;
+.title {
+  padding-left: 16px;
+  border-left: 12px solid #AA0601;
 }
 
 .footer .footer-nav .navList li a {
@@ -298,6 +260,10 @@ img {
   padding-top: 32px;
 }
 
+.pt96 {
+  padding-top: 96px;
+}
+
 .pb32 {
   padding-bottom: 32px;
 }
@@ -308,6 +274,10 @@ img {
 
 .pt60 {
   padding-top: 60px;
+}
+
+.mb60 {
+  margin-bottom: 60px;
 }
 
 .mb80 {
@@ -354,6 +324,10 @@ img {
   font-size: 42px;
 }
 
+.fz48 {
+  font-size: 48px;
+}
+
 .gap4 {
   gap: 4px;
 }
@@ -380,25 +354,13 @@ img {
 
 @media (max-width: 992px) {
   .navBar .container,
+  .content .container,
   .footer .container {
-    padding-top: 24px;
     padding-left: 36px;
     padding-right: 36px;
   }
 }
 @media (max-width: 767px) {
-  .group .container .groupList .groupItem {
-    font-size: 16px;
-  }
-  .header .d-flex img {
-    height: 136px;
-  }
-  .product .container h1 {
-    font-size: 24px;
-  }
-  .product .container h3 {
-    font-size: 24px;
-  }
   .footer .footer-nav .social .social-link a img {
     width: 40px;
     height: 40px;
@@ -417,6 +379,13 @@ img {
   }
 }
 @media (max-width: 576px) {
+  .content .container {
+    padding-left: 13px;
+    padding-right: 13px;
+  }
+  .content .container .text {
+    margin-bottom: 64px;
+  }
   .footer .container {
     padding-left: 14px;
     padding-right: 14px;
@@ -458,4 +427,4 @@ img {
     flex-direction: column;
     gap: 8px;
   }
-}/*# sourceMappingURL=product.css.map */
+}/*# sourceMappingURL=blog.css.map */
