@@ -184,7 +184,10 @@ img {
 
     .buy {
         padding: 6px 12px;
-        border: 1px solid #AA0601;
+
+        &:hover {
+            opacity: 0.8;
+        }
     }
 }
 
@@ -249,6 +252,10 @@ img {
 .contact {
     .submit {
         padding: 16px 176px;
+
+        &:hover {
+            background: #670300;
+        }
     }
 }
 
@@ -284,7 +291,6 @@ img {
             }
         }
     }
-
 }
 
 .space-between {
@@ -307,8 +313,12 @@ img {
     height: 100%;
 }
 
-.bg-darkRed {
+.bg-Red {
     background: #AA0601;
+}
+
+.bg-darkRed {
+    background: #670300;
 }
 
 .bg-light {
@@ -317,6 +327,10 @@ img {
 
 .bg-lightRed {
     background: #FBF2F2;
+}
+
+.text-Red {
+    color: #AA0601;
 }
 
 .text-darkRed {
@@ -334,6 +348,10 @@ img {
 
 .text-white {
     color: white;
+}
+
+.text-right {
+    text-align: right;
 }
 
 .text-center {

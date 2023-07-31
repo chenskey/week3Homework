@@ -177,7 +177,9 @@ img {
 }
 .header .buy {
   padding: 6px 12px;
-  border: 1px solid #AA0601;
+}
+.header .buy:hover {
+  opacity: 0.8;
 }
 
 .content .container ul li {
@@ -223,6 +225,9 @@ img {
 .contact .submit {
   padding: 16px 176px;
 }
+.contact .submit:hover {
+  background: #670300;
+}
 
 .footer .footer-nav .navList li a {
   color: #ffffff;
@@ -264,8 +269,12 @@ img {
   height: 100%;
 }
 
-.bg-darkRed {
+.bg-Red {
   background: #AA0601;
+}
+
+.bg-darkRed {
+  background: #670300;
 }
 
 .bg-light {
@@ -274,6 +283,10 @@ img {
 
 .bg-lightRed {
   background: #FBF2F2;
+}
+
+.text-Red {
+  color: #AA0601;
 }
 
 .text-darkRed {
@@ -291,6 +304,10 @@ img {
 
 .text-white {
   color: white;
+}
+
+.text-right {
+  text-align: right;
 }
 
 .text-center {

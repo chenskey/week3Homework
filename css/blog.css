@@ -175,6 +175,13 @@ img {
   border-left: 12px solid #AA0601;
 }
 
+.blogBarList li a {
+  color: #ffffff;
+}
+.blogBarList li a:hover {
+  border-bottom: 3px solid #ffffff;
+}
+
 .footer .footer-nav .navList li a {
   color: #ffffff;
 }
@@ -211,8 +218,12 @@ img {
   background: #B75929;
 }
 
-.bg-darkRed {
+.bg-Red {
   background: #AA0601;
+}
+
+.bg-darkRed {
+  background: #670300;
 }
 
 .text-dark {
@@ -252,6 +263,11 @@ img {
   line-height: 1.5;
 }
 
+.ptb13 {
+  padding-top: 13px;
+  padding-bottom: 13px;
+}
+
 .ptb25 {
   padding: 25px 0;
 }
@@ -270,6 +286,10 @@ img {
 
 .mb36 {
   margin-bottom: 36px;
+}
+
+.fz32 {
+  font-size: 32px;
 }
 
 .pt60 {
@@ -356,11 +376,15 @@ img {
   .navBar .container,
   .content .container,
   .footer .container {
+    padding-top: 24px;
     padding-left: 36px;
     padding-right: 36px;
   }
 }
 @media (max-width: 767px) {
+  .card-body .card-text p {
+    font-size: 16px !important;
+  }
   .footer .footer-nav .social .social-link a img {
     width: 40px;
     height: 40px;
