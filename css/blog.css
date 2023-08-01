@@ -202,32 +202,12 @@ img {
   border-bottom: 3px solid #ffffff;
 }
 
-.justify-content-evenly {
-  justify-content: space-evenly;
-}
-
-.space-between {
-  justify-content: space-between;
-}
-
-.bg-darkBrown {
-  background: #5F3E2D;
-}
-
-.bg-lightBrown {
-  background: #B75929;
-}
-
 .bg-Red {
   background: #AA0601;
 }
 
 .bg-darkRed {
   background: #670300;
-}
-
-.text-dark {
-  color: #000;
 }
 
 .text-darkRed {
@@ -242,25 +222,8 @@ img {
   color: white;
 }
 
-.text-center {
-  text-align: center;
-}
-
-.border {
-  border: 3px solid black;
-}
-
-.wh-1 {
-  width: 24px;
-  height: 24px;
-}
-
 .bold900 {
   font-weight: 900;
-}
-
-.line-height {
-  line-height: 1.5;
 }
 
 .ptb13 {
@@ -312,24 +275,12 @@ img {
   margin-bottom: 8px;
 }
 
-.mb40 {
-  margin-bottom: 40px;
-}
-
 .fz16 {
   font-size: 16px;
 }
 
-.fz18 {
-  font-size: 18px;
-}
-
 .fz20 {
   font-size: 20px;
-}
-
-.fz24 {
-  font-size: 24px;
 }
 
 .fz32 {
@@ -340,20 +291,8 @@ img {
   font-size: 36px;
 }
 
-.fz42 {
-  font-size: 42px;
-}
-
 .fz48 {
   font-size: 48px;
-}
-
-.gap4 {
-  gap: 4px;
-}
-
-.gap8 {
-  gap: 8px;
 }
 
 .gap16 {
@@ -366,10 +305,6 @@ img {
 
 .gap64 {
   gap: 64px;
-}
-
-.df {
-  display: flex;
 }
 
 @media (max-width: 992px) {
@@ -385,9 +320,12 @@ img {
   .card-body .card-text p {
     font-size: 16px !important;
   }
-  .footer .footer-nav .social .social-link a img {
-    width: 40px;
-    height: 40px;
+  .footer .container .footer-nav {
+    float: right;
+    clear: both;
+  }
+  .footer .container .footer-nav .navList {
+    display: none !important;
   }
 }
 @media (max-width: 700px) {
@@ -410,10 +348,6 @@ img {
   .content .container .text {
     margin-bottom: 64px;
   }
-  .footer .container {
-    padding-left: 14px;
-    padding-right: 14px;
-  }
   .navBar .container {
     flex-direction: column;
     align-items: flex-start;
@@ -431,6 +365,19 @@ img {
     width: 50%;
     border: 1px solid #ffffff;
     text-align: center;
+  }
+  .blogBar .container .blogBarList {
+    width: 100%;
+    gap: 21px;
+    justify-content: center !important;
+    font-size: 16px;
+  }
+  .blogBar .container .bi-search {
+    display: none;
+  }
+  .footer .container {
+    padding-left: 14px;
+    padding-right: 14px;
   }
   .footer .container .telephone .bi-telephone {
     font-size: 18px;

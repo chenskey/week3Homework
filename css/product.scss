@@ -205,7 +205,7 @@ img {
 }
 
 .header {
-    .d-flex {
+    .banner {
         img {
             height: 296px;
         }
@@ -271,28 +271,12 @@ img {
 
 }
 
-.justify-content-evenly {
-    justify-content: space-evenly;
-}
-
-.space-between {
-    justify-content: space-between;
-}
-
-.bg-darkBrown {
-    background: #5F3E2D;
-}
-
-.bg-lightBrown {
-    background: #B75929;
-}
-
-.bg-darkRed {
+.bg-Red {
     background: #AA0601;
 }
 
-.text-dark {
-    color: #000;
+.bg-darkRed {
+    background: #670300;
 }
 
 .text-darkRed {
@@ -307,25 +291,13 @@ img {
     color: white;
 }
 
-.text-center {
-    text-align: center;
-}
-
-.border {
-    border: 3px solid black;
-}
-
-.wh-1 {
+.wh-24 {
     width: 24px;
     height: 24px;
 }
 
 .bold900 {
     font-weight: 900;
-}
-
-.line-height {
-    line-height: 1.5;
 }
 
 .ptb25 {
@@ -392,10 +364,6 @@ img {
     font-size: 42px;
 }
 
-.gap4 {
-    gap: 4px;
-}
-
 .gap8 {
     gap: 8px;
 }
@@ -411,11 +379,6 @@ img {
 .gap64 {
     gap: 64px;
 }
-
-.df {
-    display: flex;
-}
-
 
 @media(max-width:992px) {
 
@@ -439,14 +402,6 @@ img {
                 .groupItem {
                     font-size: 16px;
                 }
-            }
-        }
-    }
-
-    .header {
-        .d-flex {
-            img {
-                height: 136px;
             }
         }
     }
@@ -481,25 +436,20 @@ img {
     }
 
     .footer {
-        .footer-nav {
-            .navList {
-                display: none;
-            }
+        .container {
+            .footer-nav {
+                .navList {
+                    display: none !important;
+                }
 
-            float: right;
-            clear: both;
+                float: right;
+                clear: both;
+            }
         }
     }
 }
 
 @media(max-width:576px) {
-    .footer {
-        .container {
-            padding-left: 14px;
-            padding-right: 14px;
-        }
-    }
-
     .navBar {
         .container {
             flex-direction: column;
@@ -526,6 +476,9 @@ img {
 
     .footer {
         .container {
+            padding-left: 14px;
+            padding-right: 14px;
+
             .telephone {
                 .bi-telephone {
                     font-size: 18px;

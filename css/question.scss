@@ -216,32 +216,12 @@ img {
 
 }
 
-.justify-content-evenly {
-    justify-content: space-evenly;
-}
-
-.space-between {
-    justify-content: space-between;
-}
-
-.bg-darkBrown {
-    background: #5F3E2D;
-}
-
-.bg-lightBrown {
-    background: #B75929;
-}
-
-.bg-darkRed {
+.bg-Red {
     background: #AA0601;
 }
 
-/* .bg-darkRed {
+.bg-darkRed {
     background: #670300;
-} */
-
-.text-dark {
-    color: #000;
 }
 
 .text-darkRed {
@@ -256,25 +236,8 @@ img {
     color: white;
 }
 
-.text-center {
-    text-align: center;
-}
-
-.border {
-    border: 3px solid black;
-}
-
-.wh-1 {
-    width: 24px;
-    height: 24px;
-}
-
 .bold900 {
     font-weight: 900;
-}
-
-.line-height {
-    line-height: 1.5;
 }
 
 .ptb25 {
@@ -313,16 +276,8 @@ img {
     margin-bottom: 8px;
 }
 
-.mb40 {
-    margin-bottom: 40px;
-}
-
 .fz16 {
     font-size: 16px;
-}
-
-.fz18 {
-    font-size: 18px;
 }
 
 .fz20 {
@@ -333,28 +288,12 @@ img {
     font-size: 24px;
 }
 
-.fz32 {
-    font-size: 32px;
-}
-
 .fz36 {
     font-size: 36px;
 }
 
-.fz42 {
-    font-size: 42px;
-}
-
 .fz48 {
     font-size: 48px;
-}
-
-.gap4 {
-    gap: 4px;
-}
-
-.gap8 {
-    gap: 8px;
 }
 
 .gap16 {
@@ -367,10 +306,6 @@ img {
 
 .gap64 {
     gap: 64px;
-}
-
-.df {
-    display: flex;
 }
 
 @media(max-width:992px) {
@@ -409,20 +344,20 @@ img {
     }
 
     .footer {
-        .footer-nav {
-            .navList {
-                display: none;
-            }
+        .container {
+            .footer-nav {
+                .navList {
+                    display: none !important;
+                }
 
-            float: right;
-            clear: both;
+                float: right;
+                clear: both;
+            }
         }
     }
 }
 
-
 @media(max-width:576px) {
-
     .content {
         .container {
             padding-left: 13px;
@@ -431,15 +366,6 @@ img {
             .text {
                 margin-bottom: 64px;
             }
-        }
-    }
-
-
-
-    .footer {
-        .container {
-            padding-left: 14px;
-            padding-right: 14px;
         }
     }
 
@@ -469,6 +395,9 @@ img {
 
     .footer {
         .container {
+            padding-left: 14px;
+            padding-right: 14px;
+
             .telephone {
                 .bi-telephone {
                     font-size: 18px;

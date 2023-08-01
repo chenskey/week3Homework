@@ -188,7 +188,7 @@ img {
   background: #AA0601;
 }
 
-.header .d-flex img {
+.header .banner img {
   height: 296px;
 }
 
@@ -233,28 +233,12 @@ img {
   border-bottom: 3px solid #ffffff;
 }
 
-.justify-content-evenly {
-  justify-content: space-evenly;
-}
-
-.space-between {
-  justify-content: space-between;
-}
-
-.bg-darkBrown {
-  background: #5F3E2D;
-}
-
-.bg-lightBrown {
-  background: #B75929;
-}
-
-.bg-darkRed {
+.bg-Red {
   background: #AA0601;
 }
 
-.text-dark {
-  color: #000;
+.bg-darkRed {
+  background: #670300;
 }
 
 .text-darkRed {
@@ -269,25 +253,13 @@ img {
   color: white;
 }
 
-.text-center {
-  text-align: center;
-}
-
-.border {
-  border: 3px solid black;
-}
-
-.wh-1 {
+.wh-24 {
   width: 24px;
   height: 24px;
 }
 
 .bold900 {
   font-weight: 900;
-}
-
-.line-height {
-  line-height: 1.5;
 }
 
 .ptb25 {
@@ -354,10 +326,6 @@ img {
   font-size: 42px;
 }
 
-.gap4 {
-  gap: 4px;
-}
-
 .gap8 {
   gap: 8px;
 }
@@ -374,10 +342,6 @@ img {
   gap: 64px;
 }
 
-.df {
-  display: flex;
-}
-
 @media (max-width: 992px) {
   .navBar .container,
   .footer .container {
@@ -389,9 +353,6 @@ img {
 @media (max-width: 767px) {
   .group .container .groupList .groupItem {
     font-size: 16px;
-  }
-  .header .d-flex img {
-    height: 136px;
   }
   .product .container h1 {
     font-size: 24px;
@@ -408,19 +369,15 @@ img {
   .navBar .container .navList {
     gap: 32px;
   }
-  .footer .footer-nav {
+  .footer .container .footer-nav {
     float: right;
     clear: both;
   }
-  .footer .footer-nav .navList {
-    display: none;
+  .footer .container .footer-nav .navList {
+    display: none !important;
   }
 }
 @media (max-width: 576px) {
-  .footer .container {
-    padding-left: 14px;
-    padding-right: 14px;
-  }
   .navBar .container {
     flex-direction: column;
     align-items: flex-start;
@@ -438,6 +395,10 @@ img {
     width: 50%;
     border: 1px solid #ffffff;
     text-align: center;
+  }
+  .footer .container {
+    padding-left: 14px;
+    padding-right: 14px;
   }
   .footer .container .telephone .bi-telephone {
     font-size: 18px;

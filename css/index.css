@@ -249,11 +249,11 @@ img {
   border-bottom: 3px solid #ffffff;
 }
 
-.space-between {
+.justify-content-between {
   justify-content: space-between;
 }
 
-.justify-center {
+.justify-content-center {
   justify-content: center;
 }
 
@@ -454,11 +454,11 @@ img {
   gap: 64px;
 }
 
-.df {
+.d-flex {
   display: flex;
 }
 
-.df-column {
+.flex-column {
   display: flex;
   flex-direction: column;
 }
@@ -560,11 +560,11 @@ img {
   .fashion .container h2 {
     font-size: 36px;
   }
-  .footer .footer-nav {
+  .footer .container .footer-nav {
     float: right;
     clear: both;
   }
-  .footer .footer-nav .navList {
+  .footer .container .footer-nav .navList {
     display: none;
   }
 }

@@ -246,8 +246,12 @@ img {
   background: #B75929;
 }
 
-.bg-darkRed {
+.bg-Red {
   background: #AA0601;
+}
+
+.bg-darkRed {
+  background: #670300;
 }
 
 .text-dark {
@@ -444,11 +448,11 @@ img {
   .navBar .container .navList {
     gap: 32px;
   }
-  .footer .footer-nav {
+  .footer .container .footer-nav {
     float: right;
     clear: both;
   }
-  .footer .footer-nav .navList {
+  .footer .container .footer-nav .navList {
     display: none;
   }
 }

@@ -285,8 +285,12 @@ img {
     background: #B75929;
 }
 
-.bg-darkRed {
+.bg-Red {
     background: #AA0601;
+}
+
+.bg-darkRed {
+    background: #670300;
 }
 
 .text-dark {
@@ -518,13 +522,15 @@ img {
     }
 
     .footer {
-        .footer-nav {
-            .navList {
-                display: none;
-            }
+        .container {
+            .footer-nav {
+                .navList {
+                    display: none;
+                }
 
-            float: right;
-            clear: both;
+                float: right;
+                clear: both;
+            }
         }
     }
 }

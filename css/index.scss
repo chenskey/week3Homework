@@ -293,11 +293,11 @@ img {
     }
 }
 
-.space-between {
+.justify-content-between {
     justify-content: space-between;
 }
 
-.justify-center {
+.justify-content-center {
     justify-content: center;
 }
 
@@ -499,11 +499,11 @@ img {
     gap: 64px;
 }
 
-.df {
+.d-flex {
     display: flex;
 }
 
-.df-column {
+.flex-column {
     display: flex;
     flex-direction: column;
 }
@@ -575,7 +575,6 @@ img {
 
                 .commentItem {
                     margin-bottom: 16px;
-
                     width: 48%;
 
                     .commentImg {
@@ -692,13 +691,15 @@ img {
     }
 
     .footer {
-        .footer-nav {
-            .navList {
-                display: none;
-            }
+        .container {
+            .footer-nav {
+                .navList {
+                    display: none;
+                }
 
-            float: right;
-            clear: both;
+                float: right;
+                clear: both;
+            }
         }
     }
 }
