@@ -537,10 +537,10 @@ img {
     gap: 32px;
   }
   .header .container h3 {
-    font-size: 24px;
+    font-size: 16px;
   }
   .header .container h1 {
-    font-size: 36px;
+    font-size: 24px;
   }
   .content .container .serviceList .service {
     width: 100%;
