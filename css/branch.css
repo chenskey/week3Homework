@@ -170,26 +170,22 @@ img {
   border-bottom: 3px solid #ffffff;
 }
 
-.group .container .groupList {
+.groupList {
   width: 100% !important;
   display: flex !important;
   flex-direction: row !important;
 }
-.group .container .groupList .active {
+.groupList .active {
   border-bottom: 12px solid #AA0601 !important;
 }
-.group .container .groupList .groupItem {
+.groupList .groupItem {
   padding-top: 24px;
   padding-bottom: 24px;
   /* padding: 24px 150px; */
 }
-.group .container .groupList .groupItem:hover {
+.groupList .groupItem:hover {
   color: #ffffff !important;
   background: #AA0601;
-}
-
-.header .d-flex img {
-  height: 296px;
 }
 
 .title {
@@ -197,7 +193,11 @@ img {
   border-left: 12px solid #AA0601;
 }
 
-.card .card-body .colorItem a {
+.content .container {
+  padding-top: 96px;
+}
+
+.card-body .colorItem a {
   border: 10px solid black;
   border-radius: 4px;
 }
@@ -210,28 +210,26 @@ img {
   background: #000 !important;
 }
 
-.footer .footer-nav .navList li a {
+.navList li a {
   color: #ffffff;
 }
-.footer .footer-nav .navList li a:hover {
-  border-bottom: 3px solid #ffffff;
-}
-.footer .footer-nav .social .social-link a img {
-  width: 48px;
-  height: 48px;
-}
-.footer .footer-bottom {
-  border-top: 1px solid #ffffff;
-}
-.footer .footer-bottom .navBottom {
-  gap: 48px;
-}
-.footer .footer-bottom .navBottom a:hover {
+.navList li a:hover {
   border-bottom: 3px solid #ffffff;
 }
 
-.justify-content-evenly {
-  justify-content: space-evenly;
+.social-link a img {
+  width: 48px;
+  height: 48px;
+}
+
+.footer-bottom {
+  border-top: 1px solid #ffffff;
+}
+.footer-bottom .navBottom {
+  gap: 48px;
+}
+.footer-bottom .navBottom a:hover {
+  border-bottom: 3px solid #ffffff;
 }
 
 .space-between {
@@ -420,18 +418,16 @@ img {
 
 @media (max-width: 992px) {
   .navBar .container,
+  .content .container,
   .footer .container {
-    padding-top: 24px;
+    padding-top: 24px !important;
     padding-left: 36px;
     padding-right: 36px;
   }
 }
 @media (max-width: 767px) {
-  .group .container .groupList .groupItem {
+  .groupItem {
     font-size: 16px;
-  }
-  .header .d-flex img {
-    height: 136px;
   }
   .branch .container h1 {
     font-size: 24px;
@@ -439,20 +435,20 @@ img {
   .branch .container h3 {
     font-size: 24px;
   }
-  .footer .footer-nav .social .social-link a img {
+  .social-link a img {
     width: 40px;
     height: 40px;
   }
 }
 @media (max-width: 700px) {
-  .navBar .container .navList {
+  .navList {
     gap: 32px;
   }
-  .footer .container .footer-nav {
+  .footer-nav {
     float: right;
     clear: both;
   }
-  .footer .container .footer-nav .navList {
+  .footer-nav .navList {
     display: none;
   }
 }
@@ -479,22 +475,22 @@ img {
     border: 1px solid #ffffff;
     text-align: center;
   }
-  .footer .container .telephone .bi-telephone {
+  .telephone .bi-telephone {
     font-size: 18px;
   }
-  .footer .container .telephone .telText {
+  .telephone .telText {
     font-size: 16px;
   }
-  .footer .container .envelope .bi-envelope {
+  .envelope .bi-envelope {
     font-size: 16px;
   }
-  .footer .container .envelope .envelopeText {
+  .envelope .envelopeText {
     font-size: 16px;
   }
-  .footer .container .footer-bottom {
+  .footer-bottom {
     flex-direction: column;
   }
-  .footer .container .footer-bottom .navBottom {
+  .footer-bottom .navBottom {
     flex-direction: column;
     gap: 8px;
   }

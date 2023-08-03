@@ -182,6 +182,14 @@ img {
   border-bottom: 3px solid #ffffff;
 }
 
+.pagination .page-item .page-link {
+  color: #000;
+}
+.pagination .active a {
+  color: #ffffff !important;
+  background: #000 !important;
+}
+
 .footer .footer-nav .navList li a {
   color: #ffffff;
 }

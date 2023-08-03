@@ -193,6 +193,17 @@ img {
     }
 }
 
+.pagination {
+    .page-item .page-link {
+        color: #000;
+    }
+
+    .active a {
+        color: #ffffff !important;
+        background: #000 !important;
+    }
+}
+
 .footer {
     .footer-nav {
 
